@@ -1,0 +1,11 @@
+# 依赖（服务器上 npm install 即可）
+node_modules/
+
+# 数据与上传（含管理员密码哈希、文章、图片，不提交到 GitHub）
+data/
+uploads/
+
+# 日志与临时文件
+*.log
+.DS_Store
+npm-debug.log*
